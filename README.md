@@ -19,13 +19,13 @@ ucp-site/
 ├── recensioni.html     # Archivio recensioni (da creare)
 ├── about.html          # Chi siamo (da creare)
 ├── privacy.html        # Privacy policy (da creare)
-├── css/
+├── css/                # ERICA: QUESTA CARTELLA è DA CREARE
 │   └── style.css       # Foglio di stile principale
-├── js/
+├── js/                 # ERICA: QUESTA CARTELLA è DA CREARE
 │   ├── posts.js        # ← DATABASE DEI POST
 │   ├── main.js         # JS homepage
 │   └── post-page.js    # JS pagina post
-├── images/             # Immagini di copertina post
+├── images/             # ERICA: QUESTA CARTELLA è DA CREARE Immagini di copertina post
 └── admin/              # ← PANNELLO ADMIN (solo locale, non su GitHub)
     └── index.html
 ```
@@ -50,6 +50,7 @@ ucp-site/
 2. Carica tutti i file (ESCLUDI la cartella `admin/`)
 3. Settings → Pages → Source: main branch
 4. Il sito è live su `https://username.github.io/repository`
+5. ERICA: Il sito non visualizza il foglio di stile perché il percorso è errato (il folder css non esiste)
 
 Per dominio personalizzato aggiungi un file `CNAME` con:
 ```
