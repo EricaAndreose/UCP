@@ -1,3 +1,8 @@
+# Developed with Claude Sonnet 4.6
+
+\\
+
+
 # Underground Cult Production — Sito Web
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-yellow?style=flat-square)](https://tuonome.github.io/underground-cult-production)
