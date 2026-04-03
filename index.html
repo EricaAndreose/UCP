@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Underground Cult Production</title>
+  <meta name="description" content="Cinema, recensioni, interviste, top e flop. Cultura cinematografica underground." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo-link">
+        <div class="logo-block">
+          <span class="logo-top">UNDERGROUND</span>
+          <span class="logo-bottom">CULT PRODUCTION</span>
+        </div>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link active">HOME</a>
+        <a href="recensioni.html" class="nav-link">RECENSIONI</a>
+        <a href="rubriche.html" class="nav-link">RUBRICHE</a>
+        <a href="live.html" class="nav-link">LIVE &amp; INTERVISTE</a>
+        <a href="about.html" class="nav-link">CHI SIAMO</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="ticker-wrap">
+      <div class="ticker-inner" id="ticker">
+        <span>★ NUOVO VIDEO SU YOUTUBE ★ UNDERGROUND CULT PRODUCTION ★ CINEMA DA GUARDARE ★ RECENSIONI ★ TOP &amp; FLOP ★ CINEFORUM ★ INTERVISTE ★ </span>
+        <span>★ NUOVO VIDEO SU YOUTUBE ★ UNDERGROUND CULT PRODUCTION ★ CINEMA DA GUARDARE ★ RECENSIONI ★ TOP &amp; FLOP ★ CINEFORUM ★ INTERVISTE ★ </span>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE NAV -->
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="index.html">HOME</a>
+    <a href="recensioni.html">RECENSIONI</a>
+    <a href="rubriche.html">RUBRICHE</a>
+    <a href="live.html">LIVE &amp; INTERVISTE</a>
+    <a href="about.html">CHI SIAMO</a>
+  </nav>
+
+  <main class="site-main">
+
+    <!-- HERO POST (featured) -->
+    <section class="hero-section" id="heroSection">
+      <div class="hero-label">IN EVIDENZA</div>
+      <div class="hero-content">
+        <div class="hero-meta">
+          <span class="tag" data-cat="recensione">RECENSIONE</span>
+          <span class="hero-date" id="heroDate">15 MARZO 2025</span>
+        </div>
+        <h1 class="hero-title" id="heroTitle">IO CAPITANO: UN FILM NECESSARIO</h1>
+        <p class="hero-excerpt" id="heroExcerpt">Garrone riesce a dipingere, senza stereotipi e pietismi, un periodo storico drammatico che ci riguarda da vicino. Una storia di formazione potente e scomoda.</p>
+        <a href="#" class="btn-primary" id="heroLink">LEGGI →</a>
+      </div>
+      <div class="hero-number">01</div>
+    </section>
+
+    <!-- POST GRID -->
+    <section class="posts-section">
+      <div class="section-header">
+        <h2 class="section-title">ULTIMI ARTICOLI</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">TUTTI</button>
+        <button class="filter-btn" data-filter="recensione">RECENSIONI</button>
+        <button class="filter-btn" data-filter="rubrica">RUBRICHE</button>
+        <button class="filter-btn" data-filter="intervista">INTERVISTE</button>
+        <button class="filter-btn" data-filter="top-flop">TOP &amp; FLOP</button>
+      </div>
+      <div class="posts-grid" id="postsGrid">
+        <!-- Posts inserted by JS -->
+        <div class="loading-posts">CARICAMENTO IN CORSO...</div>
+      </div>
+      <div class="load-more-wrap">
+        <button class="btn-secondary" id="loadMoreBtn">CARICA ALTRI</button>
+      </div>
+    </section>
+
+    <!-- YOUTUBE SECTION -->
+    <section class="yt-section">
+      <div class="yt-label">SU YOUTUBE</div>
+      <div class="yt-content">
+        <p class="yt-cta">Guarda i nostri video, le dirette e le interviste sul canale YouTube.</p>
+        <a href="https://www.youtube.com/@undergroundcultproduction" target="_blank" rel="noopener" class="btn-primary yt-btn">
+          ▶ VAI AL CANALE
+        </a>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER SECTION -->
+    <section class="newsletter-section" id="newsletter">
+      <div class="newsletter-inner">
+        <div class="nl-label">NEWSLETTER</div>
+        <h2 class="nl-title">RESTA NEL LOOP.</h2>
+        <p class="nl-text">Nuovi articoli, prossime dirette, uscite imperdibili. Zero spam, solo cinema underground.</p>
+        <!-- Mailchimp embed goes here — sostituisci con il tuo form Mailchimp -->
+        <div id="mc_embed_signup">
+          <form action="MAILCHIMP_ACTION_URL" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="nl-form" target="_blank" novalidate>
+            <input type="email" name="EMAIL" class="nl-input" id="mce-EMAIL" placeholder="LA TUA EMAIL" required>
+            <!-- Anti-bot honeypot -->
+            <div style="position:absolute;left:-5000px;" aria-hidden="true">
+              <input type="text" name="b_XXXX_XXXX" tabindex="-1" value="">
+            </div>
+            <button type="submit" class="btn-primary nl-submit">ISCRIVITI →</button>
+          </form>
+          <p class="nl-privacy">I tuoi dati sono al sicuro. Niente spam. <a href="privacy.html">Privacy policy</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- INSTAGRAM SECTION -->
+    <section class="ig-section">
+      <div class="ig-inner">
+        <span class="ig-handle">@undergroundcultproduction</span>
+        <a href="https://instagram.com/underground.cult.production/" target="_blank" rel="noopener" class="btn-secondary">SEGUICI SU INSTAGRAM</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-logo">UCP</div>
+      <div class="footer-links">
+        <a href="about.html">CHI SIAMO</a>
+        <a href="privacy.html">PRIVACY</a>
+        <a href="https://www.youtube.com/@undergroundcultproduction" target="_blank">YOUTUBE</a>
+        <a href="https://instagram.com/underground.cult.production/" target="_blank">INSTAGRAM</a>
+      </div>
+      <div class="footer-copy">
+        © 2025 Underground Cult Production — Contenuti liberamente condivisibili con attribuzione.<br>
+        <span class="footer-oss">Sito open source, costruito senza framework proprietari.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/posts.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

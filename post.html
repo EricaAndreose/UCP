@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="pageTitle">Articolo — Underground Cult Production</title>
+  <meta name="description" id="pageDesc" content="Underground Cult Production" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo-link">
+        <div class="logo-block">
+          <span class="logo-top">UNDERGROUND</span>
+          <span class="logo-bottom">CULT PRODUCTION</span>
+        </div>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">HOME</a>
+        <a href="recensioni.html" class="nav-link">RECENSIONI</a>
+        <a href="rubriche.html" class="nav-link">RUBRICHE</a>
+        <a href="live.html" class="nav-link">LIVE &amp; INTERVISTE</a>
+        <a href="about.html" class="nav-link">CHI SIAMO</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="ticker-wrap">
+      <div class="ticker-inner">
+        <span>★ UNDERGROUND CULT PRODUCTION ★ CINEMA ★ RECENSIONI ★ TOP &amp; FLOP ★ CINEFORUM ★ INTERVISTE ★ </span>
+        <span>★ UNDERGROUND CULT PRODUCTION ★ CINEMA ★ RECENSIONI ★ TOP &amp; FLOP ★ CINEFORUM ★ INTERVISTE ★ </span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="index.html">HOME</a>
+    <a href="recensioni.html">RECENSIONI</a>
+    <a href="rubriche.html">RUBRICHE</a>
+    <a href="live.html">LIVE &amp; INTERVISTE</a>
+    <a href="about.html">CHI SIAMO</a>
+  </nav>
+
+  <main class="site-main">
+    <article class="post-page" id="postPage">
+      <!-- Rendered by JS -->
+      <div class="loading-posts">CARICAMENTO...</div>
+    </article>
+
+    <!-- RELATED POSTS -->
+    <section class="posts-section" id="relatedSection" style="display:none;">
+      <div class="section-header">
+        <h2 class="section-title">LEGGI ANCHE</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="posts-grid" id="relatedGrid"></div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter-section">
+      <div class="newsletter-inner">
+        <div class="nl-label">NEWSLETTER</div>
+        <h2 class="nl-title">RESTA NEL LOOP.</h2>
+        <p class="nl-text">Nuovi articoli, prossime dirette, uscite imperdibili. Zero spam, solo cinema underground.</p>
+        <div id="mc_embed_signup">
+          <form action="MAILCHIMP_ACTION_URL" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="nl-form" target="_blank" novalidate>
+            <input type="email" name="EMAIL" class="nl-input" id="mce-EMAIL" placeholder="LA TUA EMAIL" required>
+            <div style="position:absolute;left:-5000px;" aria-hidden="true">
+              <input type="text" name="b_XXXX_XXXX" tabindex="-1" value="">
+            </div>
+            <button type="submit" class="btn-primary nl-submit">ISCRIVITI →</button>
+          </form>
+          <p class="nl-privacy">I tuoi dati sono al sicuro. Niente spam. <a href="privacy.html">Privacy policy</a>.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-logo">UCP</div>
+      <div class="footer-links">
+        <a href="about.html">CHI SIAMO</a>
+        <a href="privacy.html">PRIVACY</a>
+        <a href="https://www.youtube.com/@undergroundcultproduction" target="_blank">YOUTUBE</a>
+        <a href="https://instagram.com/underground.cult.production/" target="_blank">INSTAGRAM</a>
+      </div>
+      <div class="footer-copy">
+        © 2025 Underground Cult Production — Contenuti liberamente condivisibili con attribuzione.<br>
+        <span class="footer-oss">Sito open source, costruito senza framework proprietari.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/posts.js"></script>
+  <script src="js/post-page.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
