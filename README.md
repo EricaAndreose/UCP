@@ -1,6 +1,6 @@
 # Developed with Claude Sonnet 4.6
 
-\\
+\\ Claude si è inventato folder che non esistono -> fixare css e js
 
 
 # Underground Cult Production — Sito Web
